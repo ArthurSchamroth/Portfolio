@@ -1,0 +1,148 @@
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.about-me-parent{
+    max-width: 1000px;
+    width: 70%;
+}
+
+.about-me-card{
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0px 20px -2px #1f2235;
+    border-radius: 20px;
+}
+
+.fa-quote-left{
+    margin-right: 5px;
+    color: tomato;
+}
+
+.fa-quote-right{
+    margin-left: 5px;
+    color: tomato;
+}
+
+.coordonnees-container-petit{
+    display: none;
+}
+
+.about-me-profile{
+    background-color: #1f2235;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-details{
+    width: 48%;
+    text-align: justify;
+    padding: 30px;
+}
+
+.about-me-description{
+    font-size: 12px;
+}
+
+.about-me-highlights{
+    margin: 80px 0;
+}
+
+.highlight-heading{
+    font-family: "Poppins Bold";
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+.highlight{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.highlight-blob{
+    height: 12px;
+    width: 12px;
+    margin: 0 10px 0 0;
+    background-color: #ff5823;
+    border-radius: 50%;
+}
+
+.coordonnees-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.coordonnees-container h1{
+    font-size: 28px;
+    padding-top: 28px;
+    color: #ff5823;
+    text-decoration: underline;
+}
+
+.coordonees-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 28px;
+    color: white;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1110px){
+    .about-me-parent{
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 898px){
+    .coordonnees-container-petit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        background-color: #1f2235;
+        border-radius: 25px;
+        margin-bottom: 35px;
+        box-shadow: 0 0px 20px -2px #1f2235;
+    }
+
+    .coordonnees-container-petit h1{
+        font-size: 28px;
+        padding-top: 28px;
+        color: #ff5823;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .about-me-profile{
+        display: none;
+    }
+    .about-me-details{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 466px){
+    .about-me-options{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-options .highlighted-btn{
+        margin: 24px 0 0 0 !important;
+        width: 100%;
+    }
+    .about-me-options button{
+        width: 100%;
+    }
+}
