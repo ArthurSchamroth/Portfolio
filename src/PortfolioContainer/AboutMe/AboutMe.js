@@ -12,7 +12,7 @@ export default function AboutMe(props) {
     }
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
     const SCREEN_CONSTANTS = {
-        description: "Étudiant en dernière année d'un bachelier en Informatique et Systèmes finalité Technologie de l'informatique à l'EPHEC de Louvain-la-Neuve, je désire réaliser un master dans le cadre d'un approfondissement de mes connaissances dans le domaine de l'informatique. Au cours des années d'étude et ma période de stage chez Siemens Mobility, j'ai eu l'opportunité de beaucoup travailler dans un cadre de travail Scrum ainsi que de côtoyer des langages comme Python, JavaScript, ... avec lesquels je me sens maintenant à l'aise.",
+        description: "Diplômé en 2022 d'un bachelier en Informatique et Systèmes finalité technologie de l'informatique, je souhaiterais travailler dans un cadre où je me sentirai utile et où je pourrai continuer à apprendre de nombres choses issues du domaine du développement informatique.",
         highlights: {
             bullets: [
                 "Full stack Développeur Web et Mobile",
@@ -43,7 +43,7 @@ export default function AboutMe(props) {
                         <div className='coordonnees-container'>
                             <h1>Présentation Générale</h1>
                             <div className='coordonees-items'>
-                                <p>Age : 21 ans</p>
+                                <p>Age : 23 ans</p>
                                 <p>Langues : Français, Anglais</p>
                             </div>
                             <h1>Me contacter</h1>
@@ -58,7 +58,7 @@ export default function AboutMe(props) {
                         <div className='coordonnees-container-petit'>
                                 <h1>Présentation Générale</h1>
                                 <div className='coordonees-items'>
-                                    <p>Age : 21 ans</p>
+                                    <p>Age : 23 ans</p>
                                     <p>Langues : Français, Anglais</p>
                                 </div>
                                 <h1>Me contacter</h1>

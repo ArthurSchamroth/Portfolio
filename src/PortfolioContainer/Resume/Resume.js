@@ -62,7 +62,7 @@ export default function Resume(props) {
         {
             title: "Site Web et Application pour Kiné indépendant", 
             duration: {fromDate: "2022", toDate: "2022"},
-            description: "Création d'un portfolio en React",
+            description: "Projet réalisé dans le cadre de mon projet de fin d'étude.",
             subHeading: "Réalisation d'un site web et d'une application mobile pour la gestion de patients d'un kinésithérapeute indépendant."
         },
         {
@@ -77,9 +77,9 @@ export default function Resume(props) {
         <div className="resume-screen-container" key="education">
             <ResumeHeading
                 heading={"UCL, Louvain-la-Neuve"}
-                subHeading = {"Master en Sciences informatiques"}
+                subHeading = {"Début Passerelle du Master en Sciences informatiques"}
                 fromDate = {"2022 "}
-                toDate = {" ..."}
+                toDate = {" 2023"}
             />
             <ResumeHeading
                 heading={"EPHEC Louvain-la-Neuve, Belgique"}
@@ -122,6 +122,24 @@ export default function Resume(props) {
                         - J'ai pris l'habitude de travailler et de collaborer dans des équipes multilingues, ce qui est pour moi une très bonne expérience.
                     </span>
                     <br/>
+                </div>
+            </div>
+            <div className="experience-container">
+                <ResumeHeading
+                    heading={"Pyronix Production"}
+                    subHeading = {"Artiste"}
+                    fromDate = {"2023 "}
+                    toDate = {"Aujourd'hui"}
+                />
+                <div className="experience-description">
+                    <span className='resume-description-text'>
+                        - Développement de mes facultés de communication, d'organisation, du sens des responsabilités, ...
+                    </span>
+                </div>
+                <div className="experience-description">
+                    <span className="resume-description-text">
+                        - Artiste pyrotechnique et feu dans la troupe Pyronix Production.
+                    </span><br/>
                 </div>
             </div>
         </div>,

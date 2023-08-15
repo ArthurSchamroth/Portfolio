@@ -46,7 +46,7 @@ export default function Profile() {
                     <div className="profile-options">
                         <a href="preuves_pdf/Arthur_Schamroth.pdf" target="_blank" rel="noreferrer">
                                 <button className='btn primary-btn'>
-                                    Voici CV
+                                    Voir CV
                                 </button>
                             </a>
                         <a href="Arthur_Schamroth.pdf" download="CV Arthur_Schamroth.pdf">
