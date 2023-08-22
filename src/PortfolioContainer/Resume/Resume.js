@@ -106,8 +106,8 @@ export default function Resume(props) {
                 <ResumeHeading
                     heading={"Siemens Mobility, Belgique"}
                     subHeading = {"Stage et Job Étudiant"}
-                    fromDate = {"2022"}
-                    toDate = {"Aujourd'hui"}
+                    fromDate = {"Février 2022"}
+                    toDate = {"Juillet 2022"}
                 />
                 <div className="experience-description">
                     <span className='resume-description-text'>
